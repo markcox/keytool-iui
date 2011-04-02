@@ -1,4 +1,4 @@
-*_This version was released in october 2008*_
+*_NOTE: This version was released in october 2008*_
 
 Release of version # 2.4.1 is available in the *Downloads* tab
 
