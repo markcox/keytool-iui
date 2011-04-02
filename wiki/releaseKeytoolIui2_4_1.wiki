@@ -1,9 +1,16 @@
+*_This version was released in october 2008*_
+
 Release of version # 2.4.1 is available in the *Downloads* tab
 
 This version just contains binaries.
 
 keyTool IUI is launched thanks to a small batch.
-Any need for a Java WebStart launcher, feel free to contact _bantchao@gmail.com_
+
+_Enjoy ..._
+
+_bantchao@gmail.com_
+
+----
 
 You may want the source code, and make the executable by yourself if so: 
  # go to the *Source* tab, 
