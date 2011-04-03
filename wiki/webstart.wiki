@@ -46,3 +46,7 @@ mvn webstart:jnlp
 }}}
 
 3. As a result of the command you will find the JNLP file and the signed JARs in the "target/jnlp" folder
+
+= Tips =
+
+- Enable "debugging" and "tracing" in the Java Control Panel if you encounter problems (The default location of the trace and log files is: "<user.home>/.java/deployment/log" on Unix/Linux and "<User Application Data Folder>\Sun\Java\Deployment\log" on Windows)
