@@ -50,3 +50,12 @@ mvn webstart:jnlp
 = Tips =
 
  * Enable "debugging" and "tracing" in the Java Control Panel if you encounter problems starting the app. The default location of the trace and log files is: "<user.home>/.java/deployment/log" on Unix/Linux and "<User Application Data Folder>\Sun\Java\Deployment\log" on Windows.
+
+ * For local testing set the "codebase" attribute to the target JNLP folder - Example:
+{{{
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="file:///C:/keytool-iui/target/jnlp" href="keytool-iui.jnlp">
+   :
+</jnlp>
+}}}
+Then you can start the JNLP file with a double click.
