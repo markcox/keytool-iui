@@ -58,4 +58,4 @@ mvn webstart:jnlp
    :
 </jnlp>
 }}}
-Then you can start the JNLP file with a double click.
+  Then start the JNLP file with a double click.
