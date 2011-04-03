@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="1.0+" codebase="http://code.google.com/p/keytool-iui/source/browse/trunk/webstart" href="keytool-iui.jnlp">
+<jnlp spec="1.0+" codebase="http://code.google.com/p/keytool-iui/webstart" href="keytool-iui.jnlp">
   <information>
     <title>keytool-iui</title>
     <vendor>keytool-iui project</vendor>
