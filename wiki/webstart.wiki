@@ -1,0 +1,46 @@
+#summary How to create the Webstart files
+
+= Introduction =
+
+Steps how to run the Maven JNLP goal to create the necessary Java Webstart files.
+
+= Details =
+
+1. Add the "keytooliui.storepass" and "keytooliui.keypass" properties to your Maven "settings.xml" (located in "{user-home}\.m2\settings.xml")
+
+Example configuration:
+{{{
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <profiles>
+
+        <profile>
+
+            <id>inject-user-properties</id>
+
+            <properties>
+                <keytooliui.storepass>your-storepass</keytooliui.storepass>
+                <keytooliui.keypass>the-keypass</keytooliui.keypass>
+            </properties>
+        
+        </profile>
+        
+   </profiles>
+  
+  
+    <activeProfiles>
+        <activeProfile>inject-user-properties</activeProfile>
+    </activeProfiles>
+  
+</settings>
+ 
+}}}
+
+2. Run the following Maven command
+
+{{{
+mvn webstart:jnlp
+}}}
