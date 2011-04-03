@@ -49,4 +49,4 @@ mvn webstart:jnlp
 
 = Tips =
 
-- Enable "debugging" and "tracing" in the Java Control Panel if you encounter problems (The default location of the trace and log files is: "<user.home>/.java/deployment/log" on Unix/Linux and "<User Application Data Folder>\Sun\Java\Deployment\log" on Windows)
+ * Enable "debugging" and "tracing" in the Java Control Panel if you encounter problems starting the app. The default location of the trace and log files is: "<user.home>/.java/deployment/log" on Unix/Linux and "<User Application Data Folder>\Sun\Java\Deployment\log" on Windows.
