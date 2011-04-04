@@ -1,3 +1,5 @@
+#summary Backup, version #2.4.1, binary
+
 *_NOTE: This version was released in october 2008*_
 
 Release of version # 2.4.1 is available in the *Downloads* tab
