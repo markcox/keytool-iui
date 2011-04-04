@@ -1,3 +1,5 @@
+#summary Tag v. #2.4.2, source, libraries, settings
+
 Sources and libraries of version # 2.4.2 are available in tag tagKtlIui2-4-2.
 
 location:
