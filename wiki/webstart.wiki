@@ -41,6 +41,8 @@ Example configuration:
 
 2. Run the following Maven command
 
+_From a DOS or SHELL, go to the directory that contains pom.xml file_
+
 {{{
 mvn webstart:jnlp
 }}}
