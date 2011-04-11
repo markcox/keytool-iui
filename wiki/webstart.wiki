@@ -41,7 +41,7 @@ Example configuration:
 
 2. Run the following Maven command
 
-_From a DOS or SHELL, go to the directory that contains pom.xml file_
+_From a DOS or SHELL, go to the directory that contains pom.xml file, then type in:_
 
 {{{
 mvn webstart:jnlp
@@ -51,7 +51,11 @@ mvn webstart:jnlp
 
 = Tips =
 
- * Enable "debugging" and "tracing" in the Java Control Panel if you encounter problems starting the app. The default location of the trace and log files is: "<user.home>/.java/deployment/log" on Unix/Linux and "<User Application Data Folder>\Sun\Java\Deployment\log" on Windows.
+ * Enable "debugging" and "tracing" in the Java Control Panel if you encounter problems starting the app. 
+ * The default location of the trace and log files is: "<user.home>/.java/deployment/log" on Unix/Linux and "<User Application Data Folder>\Sun\Java\Deployment\log" on Windows.
+
+_MEMO: WebStart's cache folder is located at the same level as WebStart's log folder. To locate WebStart's cache, please open up WebStart viewer: javaws -viewer
+  ==> "Java Control Panel" shows up. In "General" tab, "Temporary Internet Files", click "Settings..." button_
 
  * For local testing set the "codebase" attribute to the target JNLP folder - Example:
 {{{
