@@ -1,1 +1,0 @@
-about16.gif already in _shr!
